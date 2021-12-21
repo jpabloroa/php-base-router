@@ -1,3 +1,3 @@
 <?php
 
-echo "<h1>Página registra: " . $_REQUEST["error"] . "</h1>";
+echo "<h1>Página registra: " . (isset($_REQUEST["error"])) ? $_REQUEST["error"] : http_response_code() . "</h1>";
