@@ -45,7 +45,7 @@ class Route
 
         //
         $_REQUEST["error"] = "404";
-        include(__DIR__ . "/../../" . self::$errorRoutes["404"]);
+        include(__DIR__ . "/../../public/error" . self::$errorRoutes["404"]);
         exit;
     }
 
