@@ -5,3 +5,5 @@
 Route::add("/", "/hiperloop.html");
 
 Route::addError("404","/error.php");
+
+Route::submit();
